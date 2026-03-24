@@ -92,27 +92,37 @@
     
 }
 
-/* BOTONES Y UTILIDADES  */
-.btn-cania {
-    background-color: var(--rosa-cania);
-    color: white;
-    border: none;
-    padding: 10px 25px;
+/* ================= NAVBAR ================= */
+
+.navbar-brand {
+    font-size: 2rem; 
+    font-weight: 900;
+    display: flex;
+    align-items: center;
 }
 
-.text-cania {
-    color: var(--rosa-cania) !important;
+.logo-nav {
+    height: 90px; 
+    margin-right: 12px;
 }
 
-.bg-cania-dark {
-    background-color: var(--rosa-cania) !important;
-}
-.bg-cania-light {
-    background-color: rgba(171, 56, 120, 0.1) !important;
+.navbar {
+    padding: 10px 0;
 }
 
-.btn-margin-custom {
-    margin: 5% 3% 5% 0;
+/* ===================================================== */
+/* NAVBAR ICONOS */
+/* ===================================================== */
+
+/* Iconos del menú */
+.navbar-nav .nav-link i {
+    margin-right: 8px;
+    transition: 0.3s;
+}
+
+/* Hover en iconos del menú */
+.navbar-nav .nav-link:hover i {
+    color: var(--naranja-acento) !important;
 }
 
 /* ESTILOS FEATURES */
