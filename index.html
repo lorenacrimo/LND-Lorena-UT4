@@ -24,52 +24,75 @@
 
 <body>
 
+    <!-- ===================================================== -->
+    <!-- HEADER + NAVBAR -->
+    <!-- ===================================================== -->
     <header id="title">
         <div class="container-fluid">
 
+            <!-- NAVBAR -->
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container-fluid p-0">
+
+                    <!-- LOGO + NOMBRE -->
                     <a class="navbar-brand app-name" href="index.html">
-                        <img src="imagenes/logocania.png" alt="Logo Cania" class="navbar-logo">
-                        <span class="text-white">Cania</span><span class="text-health">Vet</span>
+                        <img src="imagenes/logocania.png" alt="Logo" class="logo-nav"> 
+                        <span>Cania</span><span class="text-accent">Vet</span>
                     </a>
                     
+                    <!-- BOTÓN HAMBURGUESA -->
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
+                    <!-- MENÚ -->
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
+
+                            <!-- INICIO -->
                             <li class="nav-item">
-                                <a class="nav-link" href="contacto.html">Contacto</a>
+                                <a class="nav-link" href="#">
+                                    <i class="fa-solid fa-house"></i> Inicio
+                                </a>
                             </li>
+
+                            <!-- SERVICIOS -->
                             <li class="nav-item">
-                                <a class="nav-link" href="precios.html">Precios</a>
+                                <a class="nav-link" href="#servicios">
+                                    <i class="fa-solid fa-stethoscope"></i> Servicios
+                                </a>
                             </li>
+
+                            <!-- MASCOTAS -->
                             <li class="nav-item">
-                                <a class="nav-link" href="descarga.html">Descarga</a>
+                                <a class="nav-link" href="#">
+                                    <i class="fa-solid fa-paw"></i> Mascotas
+                                </a>
                             </li>
+
+                            <!-- REPO -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="fa-brands fa-github"></i> Repo
+                                </a>
+                            </li>
+
+                            <!--DROPWDOWN AÑADIDO-->
+                            
+                            <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+        <i class="fa-solid fa-user"></i> Cuenta
+    </a>
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Iniciar sesión</a></li>
+        <li><a class="dropdown-item" href="#">Registrarse</a></li>
+    </ul>
+</li>
+
                         </ul>
                     </div>
                 </div>
             </nav>
-
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-12">
-                    <h1 class="fw-bold text-white">Salud y bienestar de tu peludito.</h1>
-
-                    <div class="mt-4">
-                        <button type="button" class="btn btn-dark btn-lg me-2 btn-margin-custom">Descargar App</button>
-                        <button type="button" class="btn btn-outline-light btn-lg btn-margin-custom">Ver Demo</button>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-12 text-center mt-5 mt-lg-0">
-                    <img src="imagenes/app2.png" alt="App Preview" class="img-fluid title-image">
-                </div>
-            </div>
-        </div>
-    </header>
 
     <main class="container mt-5">
 
