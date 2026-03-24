@@ -34,6 +34,21 @@
 }
 
 
+/* ===================================================== */
+/* HERO (IMAGEN PRINCIPAL) */
+/* ===================================================== */
+
+.hero-img {
+    max-height: 400px;
+    transform: rotate(5deg);
+    transition: 0.5s;
+}
+
+/* Efecto hover */
+.hero-img:hover {
+    transform: rotate(0deg);
+}
+
 
 /* NAVBAR  */
 
