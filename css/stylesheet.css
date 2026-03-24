@@ -76,24 +76,6 @@
     
 }
 
-/* SECCIÓN HERO (Texto e Imagen) */
-
-.title {
-    color: white
-}
-#title h1 {
-    font-size: 3.5rem; 
-    line-height: 1.2;
-    font-weight: 900;
-    font-family: 'Montserrat bold';
-}
-
-.title-image {
-    max-width: 60%;
-    transform: rotate(25deg);
-    filter: drop-shadow(0 20px 40px rgba(0,0,0,0.3));
-}
-
 /* BOTONES Y UTILIDADES  */
 .btn-cania {
     background-color: var(--rosa-cania);
