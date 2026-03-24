@@ -1,0 +1,178 @@
+
+   /* CONFIGURACIÓN GENERAL */
+   
+*{
+   font-family: 'Montserrat', sans-serif !important;
+}
+:root {
+    --rosa-cania: #ab3878;
+    --rosa-health: #db2d8e;
+}
+
+/* HEADER (TITLE) */
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+
+.container-fluid {
+    /* Requisito: 3% vertical y 15% lateral */
+    padding: 3% 15% !important;
+}
+
+.app-name {
+    /* Requisito: Fuente Ubuntu */
+    font-family: 'Ubuntu', sans-serif !important;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+
+/* NAVBAR  */
+
+.navbar {
+    padding-bottom: 4.5rem;
+    background: transparent !important;
+}
+
+.navbar-logo {
+    height: 50px;
+    width: auto;
+    margin-right: 15px;
+}
+
+.text-health {
+    color: var(--rosa-health) !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500; 
+    font-size: 1.2rem;
+    padding: 0px 18px !important;
+    
+    
+}
+
+/* SECCIÓN HERO (Texto e Imagen) */
+
+.title {
+    color: white
+}
+#title h1 {
+    font-size: 3.5rem; 
+    line-height: 1.2;
+    font-weight: 900;
+    font-family: 'Montserrat bold';
+}
+
+.title-image {
+    max-width: 60%;
+    transform: rotate(25deg);
+    filter: drop-shadow(0 20px 40px rgba(0,0,0,0.3));
+}
+
+/* BOTONES Y UTILIDADES  */
+.btn-cania {
+    background-color: var(--rosa-cania);
+    color: white;
+    border: none;
+    padding: 10px 25px;
+}
+
+.text-cania {
+    color: var(--rosa-cania) !important;
+}
+
+.bg-cania-dark {
+    background-color: var(--rosa-cania) !important;
+}
+.bg-cania-light {
+    background-color: rgba(171, 56, 120, 0.1) !important;
+}
+
+.btn-margin-custom {
+    margin: 5% 3% 5% 0;
+}
+
+/* ESTILOS FEATURES */
+
+#features {
+    padding: 100px 0; /* Espaciado vertical para que respire */
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.feature-box i {
+    color: #ef8172;
+}
+
+#features h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+#features p {
+    color: #8f8f8f;
+    width: 80%;
+    margin: 0 auto; /* Centra el texto descriptivo */
+}
+
+.feature-box {
+    padding: 3rem; /* Esto separa las columnas entre sí */
+}
+
+/* TESTIMONIOS Y PRENSA */
+
+.bgtestimonio {
+    background-color: #ef8172; /* Color salmón de la captura */
+    width: 100%;
+
+}
+
+.testimonial-text {
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #3d3333;
+}
+
+.testimonial-image {
+    width: 10%; /* Ajusta tamaño de la foto */
+    min-width: 100px;
+}
+
+#press {
+    padding-bottom: 5%;
+}
+
+.press-logo {
+    width: 15%; /* Tamaño de los logos de prensa */
+    margin: 20px 20px 50px;
+}
+
+/* RESPONSIVE - MOVIL */
+
+@media (max-width: 991px) {
+    .container-fluid {
+        padding: 7% 5% !important;
+    }
+    .app-name {
+        font-size: 1.8rem;
+    }
+    #title h1 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    .title-image {
+        transform: rotate(0deg);
+        max-width: 80%;
+    }
+    .navbar {
+        border-radius: 20px;
+        padding-bottom: 1rem;
+    }
+}
