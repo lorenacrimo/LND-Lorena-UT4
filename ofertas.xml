@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+  <channel>
+    <title>Clínica Veterinaria Cania - Ofertas</title>
+    <link>https://cania.es</link>
+    <description>Ofertas destacadas de Cania</description>
+    <language>es-es</language>
+
+    <item>
+      <title>Mes de la Salud Oral: -20% en Limpieza Dental</title>
+      <link>https://cania.es/ofertas/limpieza-dental</link>
+      <description>Evita el sarro y el mal aliento. Reserva tu cita este mes y obtén un descuento especial en profilaxis dental profesional.</description>
+      <pubDate>Tue, 14 Apr 2026 12:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Pack Bienvenida: Primera consulta gratuita</title>
+      <link>https://cania.es/ofertas/pack-bienvenida</link>
+      <description>¿Tienes un nuevo mejor amigo? Te regalamos la primera revisión completa y un plan de crecimiento personalizado.</description>
+      <pubDate>Mon, 13 Apr 2026 11:15:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Protección Total: 3x2 en Pipetas y Collares</title>
+      <link>https://cania.es/ofertas/desparasitacion</link>
+      <description>Anticípate a las pulgas y garrapatas. Llevate 3 meses de protección y paga solo 2 en marcas seleccionadas.</description>
+      <pubDate>Sun, 12 Apr 2026 16:45:00 GMT</pubDate>
+    </item>
+
+  </channel>
+</rss>
